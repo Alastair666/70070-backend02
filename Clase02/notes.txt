@@ -1,0 +1,6 @@
+Memory Storage
+-Es exactamente igual a a persistencia en memoria que trabajamos la clase pasada.
+-Es un almacenamiento muy peligroso, ya que si el servidor muere a se reinicia, la sesión morirá con el y no habrá forma de recuperarla.
+
+File Storage
+-Sirve para restaturar las sesiones de los usuarios, en caso de que el servidor muera por un momento

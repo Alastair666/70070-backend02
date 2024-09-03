@@ -1,0 +1,19 @@
+Cookies:
+--> Tipicos datos que se suelen guardar: Username
+Ejemplo:
+1.- El cliente hace login
+2.- La cookie almacena el ID de la sesión
+3.- El cliente pone el fondo de la página en modo oscuro
+
+Las cookies viven en el navegador, por lo que son facilmente accesibles por multiples elementos externos.
+(Por ningún motivo guardamos información sensible en la cookie)
+
+Caracteristica:
+-Tiene un tiempo de vida (Time Live), una vez finalizado, se elimina del navegador.
+-Podemos agregar claves secretas para aumentar la seguridad.
+
+¿Que es firmar una cookie?
+-Evita la modificación de la misma.
+-Ejemplo: res.cookie('CoderCookie', 'Soy una Cookie', { maxAge: 10000, signed: true }).send('Cookie')
+
+
